@@ -12,6 +12,8 @@
         <b-navbar-item tag="router-link" :to="{ path: '/plugins' }">Betere plugins</b-navbar-item>
         <b-navbar-item tag="router-link" :to="{ path: '/nuxt' }">Nuxt</b-navbar-item>
       </b-navbar-dropdown>
+      <b-navbar-item tag="router-link" :to="{ path: '/github' }">Github</b-navbar-item>
+      <b-navbar-item tag="router-link" :to="{ path: '/vue-leren' }">Vue leren</b-navbar-item>
     </template>
   </b-navbar>
 </template>

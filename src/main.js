@@ -5,13 +5,15 @@ import Buefy from 'buefy'
 import nl from 'vee-validate/dist/locale/nl';
 import VeeValidate, { Validator } from 'vee-validate';
 import 'bulma-helpers/css/bulma-helpers.min.css'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 require("@/assets/scss/buefyCustom.scss")
 require("@/assets/scss/lwDemo.scss")
 
 Vue.use(Buefy)
-
-Vue.use(VeeValidate);
-Validator.localize('nl', nl);
+Vue.use(VueAxios, axios)
+Vue.use(VeeValidate)
+Validator.localize('nl', nl)
 
 Vue.config.productionTip = false
 

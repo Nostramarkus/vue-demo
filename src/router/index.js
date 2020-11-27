@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import Reactivity from '../views/Reactivity.vue'
 import Plugins from '../views/Plugins.vue'
 import Nuxt from '../views/Nuxt.vue'
+import Github from '../views/Github.vue'
+import VueLeren from '../views/VueLeren.vue'
 import Test from '../views/Test.vue'
 
 Vue.use(VueRouter)
@@ -28,6 +30,16 @@ const routes = [
     path: '/nuxt',
     name: 'Nuxt',
     component: Nuxt
+  },
+  {
+    path: '/github',
+    name: 'Github',
+    component: Github
+  },
+  {
+    path: '/vue-leren',
+    name: 'VueLeren',
+    component: VueLeren
   },
   {
     path: '/test',

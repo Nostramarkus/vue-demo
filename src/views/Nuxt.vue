@@ -3,7 +3,7 @@
     <lwNuxt/>
     <h1>Are you Nuxt?</h1>
     <b-carousel
-      class="has-margin-top-40"
+      class="has-margin-top-50"
       animated="slide"
       :autoplay="true"
       :pause-hover="false"
