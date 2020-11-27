@@ -1,4 +1,4 @@
-# livewall-demo
+# vue-demo
 
 ## Project setup
 ```
